@@ -1,0 +1,38 @@
+DEBUG localhost-startStop-1 org.jboss.logging - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+INFO http-bio-9090-exec-9 com.kgisl.config.AspectLog - -----------------------@Before advice called--------------------------------------
+DEBUG http-bio-9090-exec-9 com.kgisl.config.AspectLog - Class Name :  com.kgisl.service.BookServiceImp
+INFO http-bio-9090-exec-9 com.kgisl.config.AspectLog - Entering in Method :  getAll
+WARN http-bio-9090-exec-9 com.kgisl.config.AspectLog - Argumentsttt :  []
+INFO http-bio-9090-exec-9 com.kgisl.config.AspectLog - ------------------- @AfterReturning advice called ---------------------------------
+INFO http-bio-9090-exec-9 com.kgisl.config.AspectLog -  >Returning for class : {} ; Method : {} com.kgisl.service.BookServiceImpgetAll
+INFO http-bio-9090-exec-9 com.kgisl.config.AspectLog - > with value : {}[]
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - -----------------------@Before advice called--------------------------------------
+DEBUG http-bio-9090-exec-1 com.kgisl.config.AspectLog - Class Name :  com.kgisl.service.BookCategoryServiceImp
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - Entering in Method :  save
+WARN http-bio-9090-exec-1 com.kgisl.config.AspectLog - Argumentsttt :  [com.kgisl.entity.BookCategory@69ef4d8f]
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - ------------------- @AfterReturning advice called ---------------------------------
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog -  >Returning for class : {} ; Method : {} com.kgisl.service.BookCategoryServiceImpsave
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - > with value : {}com.kgisl.entity.BookCategory@75facb76
+DEBUG localhost-startStop-1 org.jboss.logging - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - -----------------------@Before advice called--------------------------------------
+DEBUG http-bio-9090-exec-1 com.kgisl.config.AspectLog - Class Name :  com.kgisl.service.BookCategoryServiceImp
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - Entering in Method :  save
+WARN http-bio-9090-exec-1 com.kgisl.config.AspectLog - Argumentsttt :  [com.kgisl.entity.BookCategory@1cfd4115]
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - ------------------- @AfterReturning advice called ---------------------------------
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog -  >Returning for class : {} ; Method : {} com.kgisl.service.BookCategoryServiceImpsave
+INFO http-bio-9090-exec-1 com.kgisl.config.AspectLog - > with value : {}com.kgisl.entity.BookCategory@72d56f3
+INFO http-bio-9090-exec-2 com.kgisl.config.AspectLog - -----------------------@Before advice called--------------------------------------
+DEBUG http-bio-9090-exec-2 com.kgisl.config.AspectLog - Class Name :  com.kgisl.service.BookServiceImp
+INFO http-bio-9090-exec-2 com.kgisl.config.AspectLog - Entering in Method :  save
+WARN http-bio-9090-exec-2 com.kgisl.config.AspectLog - Argumentsttt :  [com.kgisl.entity.Book@625dce76]
+INFO http-bio-9090-exec-2 com.kgisl.config.AspectLog - ------------------- @AfterReturning advice called ---------------------------------
+INFO http-bio-9090-exec-2 com.kgisl.config.AspectLog -  >Returning for class : {} ; Method : {} com.kgisl.service.BookServiceImpsave
+INFO http-bio-9090-exec-2 com.kgisl.config.AspectLog - > with value : {}com.kgisl.entity.Book@210573ca
+INFO http-bio-9090-exec-4 com.kgisl.config.AspectLog - -----------------------@Before advice called--------------------------------------
+DEBUG http-bio-9090-exec-4 com.kgisl.config.AspectLog - Class Name :  com.kgisl.service.BookCategoryServiceImp
+INFO http-bio-9090-exec-4 com.kgisl.config.AspectLog - Entering in Method :  getAll
+WARN http-bio-9090-exec-4 com.kgisl.config.AspectLog - Argumentsttt :  []
+INFO http-bio-9090-exec-4 com.kgisl.config.AspectLog - ------------------- @AfterReturning advice called ---------------------------------
+INFO http-bio-9090-exec-4 com.kgisl.config.AspectLog -  >Returning for class : {} ; Method : {} com.kgisl.service.BookCategoryServiceImpgetAll
+INFO http-bio-9090-exec-4 com.kgisl.config.AspectLog - > with value : {}[com.kgisl.entity.BookCategory@4f36f0fd, com.kgisl.entity.BookCategory@3f1e3836]
+DEBUG localhost-startStop-1 org.jboss.logging - Logging Provider: org.jboss.logging.Log4jLoggerProvider
